@@ -155,6 +155,7 @@ public class CSVFile {
 		char ch = ' ';
 		String column = "";
 		int countQuotes = 0;
+		
 		for (int i = 0; i < row.length(); i++) {
 			// fetch next character
 			ch = row.charAt(i);
