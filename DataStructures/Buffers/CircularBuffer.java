@@ -24,6 +24,7 @@ public class CircularBuffer {
         return i % _buffer_size;
     }
 
+    
     public Character readOutChar() {
         Character result = null;
 
